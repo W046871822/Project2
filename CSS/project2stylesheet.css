@@ -21,7 +21,7 @@
   }
   
   .topnav a.active {
-    
+      font-family:Georgia, 'Times New Roman', Times, serif;
       color: rgb(244, 240, 236);
       font-weight: bold;
       font-size: 24px;
