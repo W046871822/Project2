@@ -116,22 +116,32 @@ img {
 a:hover {
     background-color:rgb(68, 131, 182);
 }
+
+/************tables************/
 table {
-    width:90%;
-}
-table, th, td {
+    width: 90;
+    overflow: auto;
+    border-width: 20px;
+  }
+  
+  table, th, td {
     border: none;
     border-collapse: collapse;
     color:rgb(255, 255, 255);
     font-size: 150%;
     padding: 30px
 }
-thead {font-weight:bold
-	
-}
-td {color:rgb(255, 255, 255);
-	font-size: 30px;
-}
+  
+  
+  @media screen and (max-width: 600px) {
+    table, th, td {
+      display: block;
+    }
+    th, td{
+      width: 90%;
+    }
+  }
+
 
 col{
     background-color:rgb(119, 119, 119);
