@@ -100,9 +100,14 @@ p {
 }
 ul, li {
     color:white;
+    text-decoration: none;
 }
 footer {
     background-color:rgb(50, 111, 160);
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    align-items: center;
 }
 
 img {
