@@ -132,14 +132,16 @@ table {
     font-size: 150%;
     padding: 30px
 }
-  
+  th, td{
+    width: 40%;
+  }
   
   @media screen and (max-width: 1300px) {
     table, th, td {
       display: block;
     }
     th, td{
-      width: 90%;
+      width: 80%;
     }
   }
 
